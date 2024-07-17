@@ -1,4 +1,3 @@
-# Notorious-npc.github.io
-Gato Holo
+# Nototrious-npc.github.io
 
-Waaaaaa
+Fist Not's repository
