@@ -1,4 +1,4 @@
-# Nototrious-npc.github.io
+# Notorious-npc.github.io
 Gato Holo
 
 Waaaaaa
