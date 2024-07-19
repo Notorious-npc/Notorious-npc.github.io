@@ -1,38 +1,80 @@
 body {
-    background-color: #0C0B0D;
- }
- h1, h2 {
-    color: #C1CED9;
-  }
-  p {
-    color:  #C1CED9;
-  }
-  {
-    color: #A4B3BF;
-  }
-  .image-container {
-    position: relative;
-    display: inline-block;
+  background-color: #0C0B0D;
+  color: #C1CED9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centramos todo el texto dentro del body */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #333;
+  width: 100%; /* Para que el nav ocupe todo el ancho */
+  text-align: center; /* Centramos los elementos dentro del nav */
+}
+
+nav ul li {
+  display: inline-block; /* Para que los elementos del nav se alineen en línea */
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+h1, h2, p {
+  margin: 10px 0;
+}
+
+.main-image {
+  width: 304px;
+  height: 228px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px; /* Agregamos espacio entre la imagen principal y la siguiente sección */
 }
 
 .image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .image-container .footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.6);
-    color: #C1CED9; 
-    text-align: center;
-    font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #C1CED9; 
+  text-align: center;
+  font-size: 16px;
 }
+
 .link-container {
-    text-align: start;
-    margin-top: 1000px; 
+  margin-top: 20px; /* Ajustamos el espacio entre la imagen y el enlace */
+}
+
+a {
+  color: #A4B3BF;
+}
+
+a:hover {
+  text-decoration: underline;
 }
